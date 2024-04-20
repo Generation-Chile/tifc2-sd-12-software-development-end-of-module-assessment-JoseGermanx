@@ -2,8 +2,11 @@
 
 
 // Definir la URL del servidor
+const serverURL = "http://localhost:3000";
 
 
-// Exportar la función
-
-
+// Crear la función getServerURL
+export function getServerURL() {
+ // chequear si la URL esta funcionando
+    return serverURL;
+}
