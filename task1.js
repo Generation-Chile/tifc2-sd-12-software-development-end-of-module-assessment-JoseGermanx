@@ -1,7 +1,6 @@
 // Task 1: getServerURL()
 
 
-
 // Definir la URL del servidor
 const serverURL = "http://localhost:3000";
 
